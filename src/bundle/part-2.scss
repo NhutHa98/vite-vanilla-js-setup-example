@@ -1,0 +1,18 @@
+/* Part 2 styles */
+$secondary-color: #e74c3c;
+$margin: 15px;
+
+.part2-container {
+  color: $secondary-color;
+  margin: $margin;
+
+  .nested-element {
+    background-color: lighten($secondary-color, 20%);
+    padding: $margin / 2;
+  }
+}
+
+.part2-text {
+  font-weight: bold;
+  text-transform: uppercase;
+}

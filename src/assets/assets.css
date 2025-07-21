@@ -1,0 +1,13 @@
+/* Assets styles */
+.logo-styles {
+  max-width: 200px;
+  height: auto;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+
+.icon-styles {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
